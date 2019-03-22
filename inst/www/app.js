@@ -1,4 +1,6 @@
 $(function(){
+  console.log("ready");
+
   $("#mapsubmit").click(function(e){
     e.preventDefault();
     var btn = $(this).attr("disabled", "disabled");
